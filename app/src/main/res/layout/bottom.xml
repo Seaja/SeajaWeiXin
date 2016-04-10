@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/id_tab_chats"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_chats_img"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="#0000"
+            android:clickable="false"
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/charts_on" />
+
+        <TextView
+            android:id="@+id/id_tab_chats_text"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信"
+            android:textColor="#40C30F" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_contact"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_contact_img"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="#0000"
+            android:clickable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/contacts_off" />
+
+        <TextView
+            android:id="@+id/id_tab_contact_text"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="通讯录"
+            android:textColor="#999" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_discover"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_discover_img"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="#0000"
+            android:clickable="false"
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/discover_off" />
+
+        <TextView
+            android:id="@+id/id_tab_discover_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发现"
+            android:textColor="#999" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_me"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_me_img"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="#0000"
+            android:clickable="false"
+            android:scaleType="fitCenter"
+
+            android:src="@drawable/me_off" />
+
+        <TextView
+            android:id="@+id/id_tab_me_text"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我"
+            android:textColor="#999" />
+    </LinearLayout>
+
+
+</LinearLayout>

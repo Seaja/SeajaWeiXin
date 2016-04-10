@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E7E7"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/id_chating_listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#E8E7E7"
+        android:listSelector="#00000000"
+
+        >
+
+    </ListView>
+
+    <include layout="@layout/chating_bottom" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#2000" />
+
+    <FrameLayout
+        android:id="@+id/id_card_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <fragment
+            android:id="@+id/dd"
+            android:name="com.demo.seajia.seajiaweixin.fragment.ChatingCardFragment"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_gravity="center"
+
+            />
+
+    </FrameLayout>
+
+
+</LinearLayout>

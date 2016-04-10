@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.demo.seajia.seajiaweixin.activity.NewsActivity"/>
+      <point      
+        x = "512"      
+        y = "140"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.demo.seajia.seajiaweixin.MainActivity"/>
+      <point      
+        x = "1660"      
+        y = "152"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.demo.seajia.seajiaweixin.ChatingActivity"/>
+      <point      
+        x = "2556"      
+        y = "272"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
